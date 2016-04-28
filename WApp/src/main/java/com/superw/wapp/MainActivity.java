@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "ok", Toast.LENGTH_SHORT).show();
                 tv.setText("beautiful click");
+                
             }
         });
 

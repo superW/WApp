@@ -31,5 +31,9 @@ proguard/
 # Android Studio captures folder
 captures/
 
+# out of system create.(I create these.)
 .idea/
+gradle/
+WApp.iml
 WApp/WApp-WApp.iml
+WApp/build/

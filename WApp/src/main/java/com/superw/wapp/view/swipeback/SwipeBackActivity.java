@@ -8,6 +8,7 @@ import com.superw.wapp.BaseActivity;
 
 /**
  * Created by wangyc-e on 2016/5/3.
+ * 滑动删除的Activity的基类
  */
 public class SwipeBackActivity extends BaseActivity implements SwipeBackBase {
 

@@ -10,8 +10,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ui.activity.MainActivity">
 
-    <Button android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnSettingActivity"
+    <Button
+        android:id="@+id/btnSettingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSettingActivity"
         />
+
+    <Button
+        android:id="@+id/btnShowImageActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSettingActivity"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnShowImageActivity"
+        />
+
 </RelativeLayout>

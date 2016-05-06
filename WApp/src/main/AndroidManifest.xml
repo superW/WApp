@@ -15,9 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.SettingActivity"
-            android:theme="@style/TranslucentTheme"
-            >
+        <activity
+            android:name=".ui.activity.SettingActivity"
+            android:theme="@style/TranslucentTheme">
+        </activity>
+        <activity android:name=".ui.activity.ShowImageActivity"
+                  android:theme="@style/TranslucentTheme">
         </activity>
     </application>
 

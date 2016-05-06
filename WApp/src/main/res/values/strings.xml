@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Wapp</string>
+    <string name="btnSettingActivity">click me to SettingActivity</string>
+    <string name="btnShowImageActivity">click me to ShowImageActivity</string>
 </resources>

@@ -17,14 +17,18 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
 
 
-        Button btn = (Button) findViewById(R.id.btnSettingActivity);
-        btn.setText("click me to SettingActivity");
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btnSettingActivity = (Button) findViewById(R.id.btnSettingActivity);
+        btnSettingActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "ok", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(MainActivity.this, SettingActivity.class));
+            }
+        });
+        Button btnShowImageActivity = (Button) findViewById(R.id.btnShowImageActivity);
+        btnShowImageActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ShowImageActivity.class));
             }
         });
 

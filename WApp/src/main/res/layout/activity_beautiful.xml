@@ -8,22 +8,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ui.activity.MainActivity">
+    tools:context=".ui.activity.BeautifulActivity">
 
-    <Button
-        android:id="@+id/btnSettingActivity"
+    <ImageView
+        android:id="@+id/ivShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnSettingActivity"
-        />
-
-    <Button
-        android:id="@+id/btnShowImageActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSettingActivity"
-        android:layout_marginTop="20dp"
-        android:text="@string/btnShowImageActivity"
+        android:scaleType="centerInside"
         />
 
 </RelativeLayout>

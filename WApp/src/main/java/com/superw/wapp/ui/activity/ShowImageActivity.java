@@ -2,14 +2,13 @@ package com.superw.wapp.ui.activity;
 
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.superw.wapp.R;
-import com.superw.wapp.util.ZoomOutPageTransformer;
+import com.superw.wapp.helper.transformer.ZoomOutPageTransformer;
 import com.superw.wapp.view.swipeback.SwipeBackActivity;
 
 public class ShowImageActivity extends SwipeBackActivity {

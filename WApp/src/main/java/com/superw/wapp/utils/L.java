@@ -8,7 +8,7 @@ import android.util.Log;
 public class L {
 
     public static boolean isDebug = true;
-    public static final String TAG = "wangyc";
+    public static final String TAG = "wangyc_app";
     // 下面四个是默认tag的函数
     public static void i(String msg)
     {

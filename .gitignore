@@ -37,3 +37,5 @@ gradle/
 WApp.iml
 WApp/WApp-WApp.iml
 WApp/build/
+
+*.iml
